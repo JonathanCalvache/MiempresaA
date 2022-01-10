@@ -1,0 +1,18 @@
+
+*Crear Reporsitorios
+$ git init //para empezar a seguir un programa solo se ejecuta una vez para el proyecto
+$ git add index.html para adicionar el codigo que se va a guardar o a seguir
+$ git commit -m "Comienzo del proyecto" //Se crea el respaldo, se debe hacer de cuantas veces se quiera guardar
+
+(Siempre que se vaya abrir Git damos click derecho en la carpeta donde se encuentra el archivo se cea eel reposiotio revixar archivos ocultos)
+(ver documentacion en git sale todos los codigos)
+
+
+*Agregar archivos y directorios a repositorio
+$ git status -s //saber el estatus de que se sigue, en signo pregunta no sigue a ninguno
+
+
+*Respaldar archivos y directorios en repositorio
+
+$ git log --oneline //para saber cuantos commits o cambios hemos guardado
+$ git reset --hard //se debe colocar el codigo en hexadecimal que aparece en cada guardada no lo da el log oneline sin comillas se borran lo guardado despues 
